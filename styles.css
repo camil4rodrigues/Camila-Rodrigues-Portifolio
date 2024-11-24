@@ -23,11 +23,11 @@ h2 {
 h3 {
     font-family: Anton;
     margin: auto;
-    font-size: 40 px;
+    font-size: 72 px;
 }
 h4 {
     font-family: Anton;
-    font-size: 40 px;
+    font-size: 72 px;
     margin: 0;
 }
 .sobre-mim {
@@ -54,5 +54,51 @@ h4 {
     .titulo h4 {
         margin-bottom: 20 px;
     }
+}
+.container {
+  max-width: 1200 px;
+  margin: 20 px auto;
+  display: grid;
+  grid-template-columns: repeat (2, 1 fr);
+  gap: 20 px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8 px;
+  box-shadow: 0 4 px 6 px rgba (0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2 s ease-in-out, box-shadow 0.2 s ease-in-out;
+}
+
+.card: hover {
+  transform: scale (1.05);
+  box-shadow: 0 6 px 10 px rgba (0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100 %;
+  height: auto;
+}
+
+ card h3 {
+  font-size: 18 px;
+  margin: 10 px 0;
+  padding: 0 10 px;
+  color: #333;
+}
+
+.card a {
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 14 px;
+  margin-bottom: 10 px;
+  display: inline-block;
+  transition: color 0.2 s ease-in-out;
+}
+
+.card a: hover {
+  color: #0056b3;
 }
 
