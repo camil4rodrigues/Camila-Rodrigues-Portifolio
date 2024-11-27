@@ -1,6 +1,9 @@
 body {
   background-color: #F9F9F9;
 }
+header {
+  margin-right: 20px;
+}
 .w3-row-padding img {
   margin-bottom: 30px;
   margin-top: 30px;
